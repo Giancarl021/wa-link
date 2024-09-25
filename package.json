@@ -1,0 +1,21 @@
+{
+  "name": "wa-link",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@types/inputmask": "^5.0.7",
+    "sass": "^1.79.3",
+    "typescript": "^5.5.3",
+    "vite": "^5.4.1"
+  },
+  "dependencies": {
+    "bulma": "^1.0.2",
+    "inputmask": "^5.0.9"
+  }
+}
