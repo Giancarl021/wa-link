@@ -51,8 +51,8 @@ jobs:
     name: Deploy
     needs: build
     permissions:
-      contents: read
-      pages: write 
+      contents: write
+      pages: write
     runs-on: ubuntu-latest
     if: github.ref == 'refs/heads/master'
 
