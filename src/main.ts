@@ -8,7 +8,7 @@ async function main() {
 
   $btn.addEventListener('click', () => {
     const number = $input.value.replace(/\D/g, '');
-    if (String(number).length < 10) return;
+    if (number.length < 10) return;
     window.open(`https://wa.me/+55${number}`, '_blank');
   })
 
