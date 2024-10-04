@@ -1,4 +1,4 @@
-import 'bulma';
+import 'bulma/css/bulma.min.css';
 import './scss/main.scss';
 import Inputmask from 'inputmask';
 
