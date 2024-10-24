@@ -3,7 +3,7 @@ import './scss/main.scss';
 import Inputmask from 'inputmask';
 
 function parseNumber(input: string): number | null {
-    const number = input.replace(/D/g, '');
+    const number = input.replace(/\D/g, '');
     if (number.length < 10) return null;
 
     return Number(number);
